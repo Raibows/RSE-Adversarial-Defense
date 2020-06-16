@@ -1,5 +1,9 @@
 ## Random Substitution Encoder
+<p align="center">
+<img src="https://visitor-badge.glitch.me/badge?page_id=<3ed57aa369d867654839f21f5a92b5360c9e9e9635481fdafe231fba3c6ddb70>" >
+</p>
 This repo contains a PyTorch implementation of Random Substitution Encoder (RSE) for the paper in <a href="https://arxiv.org/abs/2005.00446">arXiv</a>.
+
 
 
 ### Environment
@@ -11,7 +15,7 @@ Our experiments environment is as below
 
 ### Download
 You need to download IMDB, AGNEWS and YAHOO dataset and place them in ``./dataset/``.  
-Then convert the origin dataset to standard data file used in this repo. The convert methods for each dataset are in ``tools.py``.
+Then convert the origin dataset to standard data file used in this repo. The converted methods for each dataset are in ``tools.py``.
 ```
 def read_IMDB_data(path):
     ###
