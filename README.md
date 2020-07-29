@@ -1,6 +1,6 @@
 ## Random Substitution Encoder
 <p align="center">
-<img src="https://visitor-badge.glitch.me/badge?page_id=<3ed57aa369d867654839f21f5a92b5360c9e9e9635481fdafe231fba3c6ddb70>" >
+<img src="https://chizuo.top/api/get_visitor_counter_badge?id=a1561fcb3473f4e33ffaabeb73e860fc" >
 </p>
 This repo contains a PyTorch implementation of Random Substitution Encoder (RSE) for the paper in <a href="https://arxiv.org/abs/2005.00446">arXiv</a>.
 
