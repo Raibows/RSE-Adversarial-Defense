@@ -55,7 +55,7 @@ class Vocab():
     def __read_pretrained_word_vecs(self):
         num = 0
         word_dict = {}
-        word_dict['<unk>'] = self.num  # unknown word
+        word_dict['<unk>'] = 0  # unknown word
         with open(self.file_path, 'r', encoding='utf-8') as file:
             file = file.readlines()
             vectors = np.ndarray([len(file) + 1, self.word_dim], dtype='float32')
